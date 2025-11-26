@@ -26,6 +26,8 @@ public class Venta {
         return this.producto;
     }
 
+    public int getCantidadAComprar() {return this.cantidadAComprar;}
+
     public String obtenerDetallesDeLaVenta() {
         return cliente.toString() + "\n" + "\n" + "Nombre del producto: "+ producto.getNombre() + 
         "\n" + "Cantidad a comprar: " + cantidadAComprar

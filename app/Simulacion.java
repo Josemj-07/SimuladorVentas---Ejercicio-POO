@@ -34,6 +34,9 @@ public class Simulacion {
             System.out.println();
             System.out.println("\n" + "VENTA REALIZADA" + "\n");
             System.out.println(venta.obtenerDetallesDeLaVenta());
+            System.out.println();
+            System.out.println();
+            System.out.println("TOTAL PAGADO: " + producto.getPrecio()*venta.getCantidadAComprar());
 
             System.out.println();
             System.out.println();
